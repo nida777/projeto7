@@ -1,0 +1,98 @@
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90px;
+    
+    border-bottom: solid 1px rgba(0, 0, 0, 0.09);
+    width: 100%;
+    
+}
+
+.title h3 {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold ;
+  
+    
+}
+
+.texto{
+  font-size: 18px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
+.sec1 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    /* background: red; */
+    padding: 10px
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: black; */
+    width: 60%;
+}
+
+.img-noti {
+    width: 95%;
+    /* height: 450px; */
+    background: #FFF
+}
+
+.img-conteudo {
+    width:100%;
+    height: auto;
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+
+
+.rigth h3 {
+    /* background: maroon; */
+    width: 100%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.09);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        justify-content: center;
+    }
+
+    .title h3 {
+        font-size: 18px;
+        margin-left: 0px
+    }
+
+    .sec1 {
+        flex-direction: column
+    }
+
+    .sec1 .left {
+        width: 100%;
+    }
+
+    .sec1 .rigth {
+        width: 100%;
+    }
+    /* .categ {
+        position: static;
+    } */
+}

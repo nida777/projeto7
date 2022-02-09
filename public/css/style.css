@@ -1,0 +1,35 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+body {
+  margin: 0
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background: white;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1
+}
+
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    /* background: black; */
+    justify-content: center;
+    padding-left: 0px;
+  }
+}
